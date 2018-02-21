@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  // import {mapGetters} from 'vuex';
+
   import testItem from './Item.vue';
 
   export default {
@@ -20,19 +20,13 @@
           {have:false, inCart: false, item: 'Stuff'},
           {have:true, inCart: false, item: 'Things'},
           {have:false, inCart: true, item: 'Toys'},
-          {have:false, inCart: false, item: 'Lots Of Candy'},
-          {have:true, inCart: true, item: 'Even More Toys'},
-          {have:false, inCart: false, item: 'Fluff'}
+          {have:false, inCart: false, item: 'Candy'},
+          {have:true, inCart: true, item: 'Even More Toys'}
+
         ]
       };
     },
 
-// computed: {
-//   ...mapGetters([
-//     'getSupplies'
-//   ]),
-//
-// },
     components:{
      testItem
     }
