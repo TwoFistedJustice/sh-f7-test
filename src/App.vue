@@ -64,6 +64,7 @@
           </f7-navbar>
           <f7-block>
             <p>Here comes popup text</p>
+            <p>This would be a great place to put the chore wheel output</p>
           </f7-block>
         </f7-page>
       </f7-view>
